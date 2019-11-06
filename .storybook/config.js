@@ -1,6 +1,7 @@
 import { configure, addParameters, addDecorator } from '@storybook/react';
 import { jsxDecorator } from 'storybook-addon-jsx';
 
+import 'bootswatch/dist/pulse/bootstrap.min.css';
 import './style.scss';
 import '../src/index.scss';
 
