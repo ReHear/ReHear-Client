@@ -1,0 +1,33 @@
+// Colors
+$color-text: #000000;
+$color-bg: #F5F5F5;
+
+// Fonts
+
+$font-family: sans-serif;
+$font-size-base: 14px;
+
+$font-light: 100;
+$font-regular: normal;
+$font-bold: bold;
+
+// Styles
+
+$border-radius: 5px;
+$border-radius--big: 10px;
+$border-radius--bigger: 15px;
+
+$box-shadow:  0 3px 3px rgba(0, 0, 0, 0.1),   /** Simulate Direct Light - Color is a darkened shade of blue **/
+0 3px 20px rgba(0, 0, 0, 0.2);  /** Simulate Ambient Light - Color is a darkened shade of blue **/;
+
+// Responsive Breakpoints
+
+$breakpoints:
+                (xs 500),
+                (s 768),
+                (m 960),
+                (l 1240),
+                (xl 1400);
+
+$gutter-padding--mobile: 20px;
+$gutter-padding--desktop: 25px;
